@@ -1,0 +1,9 @@
+Description:
+    Installs JS and CSS files into your app's assets folder.
+
+Example:
+    rails generate gentelella:install
+
+    This will create:
+        app/assets/javascripts/gentelella-custom.js
+        app/assets/stylesheets/gentelella-custom.css
