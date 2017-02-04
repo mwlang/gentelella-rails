@@ -29,6 +29,11 @@ out of date, I utilized the Bower supplied version.
 
 You may also find the demo [Rails 5.x project on github](https://github.com/mwlang/gentelella-rails-demo)
 
+## Theme Demo
+![Gentelella Bootstrap Admin Template](https://github.com/mwlang/gentelella-rails-demo/blob/master/public/images/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+
+**[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
+
 ## Installation
 Add the following to your Rails application's Gemfile and bundle install:
 
