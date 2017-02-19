@@ -48,3 +48,4 @@
 
 $ ->
   new FastClick(document.body)
+  $(".dropdown-toggle").dropdown()
