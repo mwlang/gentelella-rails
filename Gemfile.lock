@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gentelella-rails (0.1.1)
+    gentelella-rails (0.1.2)
       bootstrap-daterangepicker-rails
       bootstrap-sass (~> 3.3.6)
       chart-js-rails
@@ -70,7 +70,7 @@ GEM
     builder (3.2.3)
     chart-js-rails (0.1.1)
       railties (> 3.1)
-    concurrent-ruby (1.0.4)
+    concurrent-ruby (1.0.5)
     datejs-rails (2.0.1)
       railties (>= 3.1)
     erubis (2.7.0)
@@ -82,7 +82,7 @@ GEM
       sass (>= 3.2)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
-    i18n (0.8.0)
+    i18n (0.8.1)
     icheck-rails (1.0.2.2)
       jquery-rails
       rails (>= 3.1.0)
@@ -156,7 +156,7 @@ GEM
     switchery-rails (0.8.1.1)
       railties (>= 3.2, < 6.0)
     thor (0.19.4)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     tilt (2.0.6)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
