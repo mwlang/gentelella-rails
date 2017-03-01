@@ -1,6 +1,5 @@
 #= require jquery
 #= require jquery_ujs
-#= require bootstrap-sprockets
 #= require bootstrap
 #= require bootstrap-progressbar
 #= require moment
@@ -48,4 +47,3 @@
 
 $ ->
   new FastClick(document.body)
-  $(".dropdown-toggle").dropdown()

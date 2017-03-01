@@ -2427,7 +2427,7 @@ textarea:focus {
     -ms-filter: unquote("progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0)");
     border-color: #e6e6e6 #e6e6e6 #bfbfbf;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    -ms-filter: unquote("progid: DXImageTransform.Microsoft.gradient(enabled=false)");
+    -ms-filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled=false)");
     border: 1px solid #cccccc;
     border-bottom-color: #b3b3b3;
     border-radius: 4px;
@@ -2781,8 +2781,8 @@ ul.widget_tally .count {
     border-bottom: 1px solid rgba(101, 204, 182, 0.16);
     padding-bottom: 15px;
     border-radius: 4px;
-    -ms-filter: unquote("progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0)");
-    -ms-filter: unquote("progid: DXImageTransform.Microsoft.gradient(enabled=false)");
+    -ms-filter: unquote("progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0)");
+    -ms-filter: unquote("progid:DXImageTransform.Microsoft.gradient(enabled=false)");
     padding-bottom: 10px;
     box-shadow: 0 4px 6px -6px #222
 }
@@ -3580,7 +3580,7 @@ form:after {
 .button {
     background: #f7f9fa;
     background: linear-gradient(top, #f7f9fa 0%, #f0f0f0 100%);
-    -ms-filter: unquote("progid: DXImageTransform.Microsoft.gradient( startColorstr='#f7f9fa', endColorstr='#f0f0f0', GradientType=0)");
+    -ms-filter: unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f9fa', endColorstr='#f0f0f0', GradientType=0)");
     -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
     -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
