@@ -1,5 +1,6 @@
 require 'bootstrap-sass'
 require 'font-awesome-sass'
+require 'jquery-rails'
 require 'nprogress-rails'
 require 'icheck-rails'
 require 'momentjs-rails'
