@@ -8,7 +8,7 @@
 #= require icheck
 #= require jquery.vmap.js
 #= require fastclick
-#= require Chart
+#= require Chart.min
 #= require gauge
 #= require skycons
 #= require date
