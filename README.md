@@ -48,6 +48,8 @@ bundle install
 rails g gentelella:install
 ```
 
+NOTE:  If the generator fails to work, then make sure you stop Spring: ```spring stop``` and then try again.
+
 Add the following to your assets/javascripts/application.js
 
 ```javascript
