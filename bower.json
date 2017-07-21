@@ -1,0 +1,20 @@
+{
+  "name": "gentelella-rails",
+  "homepage": "https://github.com/mwlang/gentelella-rails",
+  "authors": [
+    "mwlang <mwlang@cybrains.net>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gentelella": "^1.4.0"
+  }
+}

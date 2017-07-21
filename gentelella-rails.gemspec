@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "fastclick-rails"
   s.add_runtime_dependency "chart-js-rails"
   s.add_runtime_dependency "flot-rails"
-  s.add_runtime_dependency "datejs-rails"
   s.add_runtime_dependency "switchery-rails"
   s.add_runtime_dependency "select2-rails"
   s.add_runtime_dependency "parsley-rails"

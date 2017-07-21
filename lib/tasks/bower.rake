@@ -10,6 +10,7 @@ namespace :bower do
   desc "updates javascripts from bower package manager"
   task :update do
     puts `bower install gentelella --save`
+    puts `bower install DateJS --save`
   end
 
   desc "vendors javascripts and stylesheets for rails assets pipeline"
@@ -30,6 +31,9 @@ namespace :bower do
 
     Dir.glob("bower_components/gentelella/vendors/google-code-prettify/src/*.js"){ |fn| cp_asset fn, "prettify" }
     Dir.glob("bower_components/gentelella/vendors/google-code-prettify/src/*.css"){ |fn| cp_asset fn, "prettify" }
+
+    Dir.glob("bower_components/DateJS/build/*.js"){ |fn| cp_asset fn, "date" }
+    # rename vendors/javascripts/date/date.js to date/core.js
 
     cp_asset "bower_components/gentelella/vendors/starrr/dist/starrr.css"
     cp_asset "bower_components/gentelella/vendors/starrr/dist/starrr.js"
