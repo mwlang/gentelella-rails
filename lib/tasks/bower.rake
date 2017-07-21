@@ -86,6 +86,7 @@ namespace :bower do
     cp_asset "bower_components/fullcalendar/dist/fullcalendar.js"
     cp_asset "bower_components/fullcalendar/dist/fullcalendar.css"
     cp_asset "bower_components/fullcalendar/dist/fullcalendar.print.css"
+    cp_asset "bower_components/moment/min/moment-with-locales.js"
 
 
     cp_asset "bower_components/gentelella/vendors/raphael/raphael.js"

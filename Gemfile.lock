@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gentelella-rails (0.1.7)
+    gentelella-rails (0.1.8)
       bootstrap-daterangepicker-rails
       bootstrap-sass (~> 3.3.6)
       chart-js-rails

@@ -36,6 +36,7 @@
 #= require jszip
 #= require pdfmake
 #= require vfs_fonts
+#= require moment-with-locales.js
 #= require fullcalendar
 #= require raphael
 #= require morris
