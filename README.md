@@ -30,7 +30,7 @@ out of date, I utilized the Bower supplied version.
 You may also find the demo [Rails 5.x project on github](https://github.com/mwlang/gentelella-rails-demo)
 
 ## Theme Demo
-![Gentelella Bootstrap Admin Template](https://github.com/mwlang/gentelella-rails-demo/blob/master/public/images/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+![Gentelella Bootstrap Admin Template](https://github.com/mwlang/gentelella-rails-demo/blob/master/examples/shared/public/images/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
 
 **[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
 
@@ -69,6 +69,9 @@ If you're working with jquery.vmap, then your application.js will look something
 
 There is no need to include bootstrap-sprockets, font-awesome, jquery, etc. as these are all included via
 the gem when you "require gentelella"
+
+NOTE: gentella-custom is meant to be edited!  If you find things breaking from include/import lines of this file, comment out
+the offending lines.  gentella-custom is where you can place all project-specific scripts.
 
 Finally, add the stylesheet directives to your assets/stylesheets/application.scss
 
