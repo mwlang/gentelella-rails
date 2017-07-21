@@ -1,7 +1,7 @@
 /*!
- * FullCalendar v3.1.0 Stylesheet
- * Docs & License: http://fullcalendar.io/
- * (c) 2016 Adam Shaw
+ * FullCalendar v3.4.0 Stylesheet
+ * Docs & License: https://fullcalendar.io/
+ * (c) 2017 Adam Shaw
  */
 
 
@@ -22,15 +22,13 @@ body .fc { /* extra precedence to overcome jqui */
 /* Colors
 --------------------------------------------------------------------------------------------------*/
 
-/* for gutter border */
-
 .fc-unthemed th,
 .fc-unthemed td,
 .fc-unthemed thead,
 .fc-unthemed tbody,
 .fc-unthemed .fc-divider,
 .fc-unthemed .fc-row,
-.fc-unthemed .fc-content, 
+.fc-unthemed .fc-content, /* for gutter border */
 .fc-unthemed .fc-popover,
 .fc-unthemed .fc-list-view,
 .fc-unthemed .fc-list-heading td {
@@ -68,6 +66,15 @@ body .fc { /* extra precedence to overcome jqui */
 .fc-nonbusiness { /* default look for non-business-hours areas */
 	/* will inherit .fc-bgevent's styles */
 	background: #d7d7d7;
+}
+
+.fc-unthemed .fc-disabled-day {
+	background: #d7d7d7;
+	opacity: .3;
+}
+
+.ui-widget .fc-disabled-day { /* themed */
+	background-image: none;
 }
 
 
@@ -234,9 +241,9 @@ NOTE: use percentage font sizes or else old IE chokes
 	text-decoration: none;
 	background-position: 0 -15px;
 	-webkit-transition: background-position 0.1s linear;
-	-moz-transition: background-position 0.1s linear;
-	-o-transition: background-position 0.1s linear;
-	 transition: background-position 0.1s linear;
+	   -moz-transition: background-position 0.1s linear;
+	     -o-transition: background-position 0.1s linear;
+	        transition: background-position 0.1s linear;
 }
 
 .fc-state-down,

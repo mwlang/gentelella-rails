@@ -83,9 +83,9 @@ namespace :bower do
     cp_asset "bower_components/gentelella/vendors/pnotify/dist/pnotify.buttons.css"
     cp_asset "bower_components/gentelella/vendors/pnotify/dist/pnotify.nonblock.css"
 
-    cp_asset "bower_components/gentelella/vendors/fullcalendar/dist/fullcalendar.js"
-    cp_asset "bower_components/gentelella/vendors/fullcalendar/dist/fullcalendar.css"
-    cp_asset "bower_components/gentelella/vendors/fullcalendar/dist/fullcalendar.print.css"
+    cp_asset "bower_components/fullcalendar/dist/fullcalendar.js"
+    cp_asset "bower_components/fullcalendar/dist/fullcalendar.css"
+    cp_asset "bower_components/fullcalendar/dist/fullcalendar.print.css"
 
 
     cp_asset "bower_components/gentelella/vendors/raphael/raphael.js"
