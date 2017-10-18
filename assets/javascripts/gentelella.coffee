@@ -2,12 +2,12 @@
 #= require jquery_ujs
 #= require bootstrap
 #= require bootstrap-progressbar
-#= require moment
 #= require daterangepicker
 #= require nprogress
 #= require icheck
 #= require jquery.vmap.js
 #= require fastclick
+#= require moment-with-locales.js
 #= require Chart.min
 #= require gauge
 #= require skycons
@@ -36,7 +36,6 @@
 #= require jszip
 #= require pdfmake
 #= require vfs_fonts
-#= require moment-with-locales.js
 #= require fullcalendar
 #= require raphael
 #= require morris
