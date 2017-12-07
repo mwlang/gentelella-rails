@@ -2,12 +2,12 @@
 #= require jquery_ujs
 #= require bootstrap
 #= require bootstrap-progressbar
+#= require moment-with-locales.js
 #= require daterangepicker
 #= require nprogress
 #= require icheck
 #= require jquery.vmap.js
 #= require fastclick
-#= require moment-with-locales.js
 #= require Chart.min
 #= require gauge
 #= require skycons
